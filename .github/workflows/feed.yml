@@ -1,0 +1,57 @@
+name: Build feed
+
+# Every 3 hours: rebuild site/manifest.json from the mission image sources,
+# commit it if the picks changed, and publish site/ to GitHub Pages.
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["pipeline/**", "site/index.html", ".github/workflows/feed.yml"]
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build manifest
+        run: >
+          python3 pipeline/build_manifest.py
+          --out site/manifest.json --previous site/manifest.json
+
+      - name: Commit manifest if it changed
+        run: |
+          git add site/manifest.json
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+            git commit -m "feed: update manifest"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
