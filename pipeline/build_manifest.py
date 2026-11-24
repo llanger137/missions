@@ -6,11 +6,15 @@ Phase 1 sources (all curated by people, so no scoring yet):
   - NASA Photojournal (same API), minus ground hardware and Earth-science
   - ESA/Webb picture of the month and ESA/Hubble picture of the week
   - HiRISE Picture of the Day (Mars from orbit)
+  - ESA's image library (Euclid, Hera, Mars Express, BepiColombo, Juice, ...)
+
+Standard library plus certifi when installed: esa.int's chain ends at a newer
+Sectigo root that some system CA stores (e.g. this Mac's) don't have.
 
 Images are not rehosted. Each item points at a TV-sized rendition on the
 publisher's own CDN, so the manifest is the only thing this pipeline publishes.
 
-Standard library only. Usage:
+Usage:
   python3 build_manifest.py --out site/manifest.json [--previous URL_OR_FILE]
 """
 
@@ -20,10 +24,17 @@ import email.utils
 import html
 import json
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.parse
 import urllib.request
+
+try:
+    import certifi
+    SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    SSL_CTX = ssl.create_default_context()
 
 UA = "missions-tv-feed/1.0 (+https://github.com/llanger137/missions)"
 TIMEOUT = 40
@@ -34,7 +45,33 @@ THUMB = 384               # rendition for future LLM scoring
 # Newest N items kept per source after merging with the previous manifest.
 KEEP_PER_SOURCE = {"webb": 40, "hubble": 40, "roman": 40,
                    "photojournal": 80, "esawebb": 12, "esahubble": 20,
-                   "hirise": 60}
+                   "hirise": 60, "esa": 60}
+
+ESA_SEARCH = ("https://www.esa.int/api/search?category=multimedia"
+              "&contentType=image&pageSize=100&page={}")
+ESA_PAGES = 2   # ~100 images per 2-3 weeks
+# ESA's library is mostly launches, people, hardware and Earth observation.
+# Keep items tied to a science mission (by subject or title), then drop the
+# non-photos by title. Order matters: first match names the mission.
+ESA_MISSIONS = [
+    (r"Euclid", "Euclid"),
+    (r"\bHera\b|Didymos|Dimorphos", "Hera"),
+    (r"BepiColombo|Mercury", "BepiColombo"),
+    (r"\bJuice\b", "Juice"),
+    (r"Solar Orbiter", "Solar Orbiter"),
+    (r"\bGaia\b", "Gaia"),
+    (r"Proba-3", "Proba-3"),
+    (r"\bCluster\b", "Cluster"),
+    (r"Mars Express|^Mars$|Martian|Mars[’']s", "Mars Express"),
+]
+ESA_JUNK = re.compile(
+    r"impression|logo|patch|team|astronaut|launch|lifts? off|liftoff|"
+    r"media kit|deck|stereo|cross-eyed|\b3d\b|slider|collage|rover|ramp|"
+    r"\btest|engineer|manager|open day|facts|puppet|context|footprint|"
+    r"survey|spectroscop|catalogue|treasure|mosaic|webb|hubble|thrusters|"
+    r"insertion|entering orbit|passing between|surveying|size comparison|"
+    r"mmx|reentry|commands|contract|model|mascot|exomars",
+    re.I)
 
 HIPOD = "https://uahirise.org/hipod/"
 HIPOD_BACKFILL = 30   # newest archive entries considered
@@ -83,7 +120,7 @@ JUNK_TAGS = ("artist-concept", "infographic", "spectra", "videos",
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+    with urllib.request.urlopen(req, timeout=TIMEOUT, context=SSL_CTX) as r:
         return r.read()
 
 
@@ -278,6 +315,75 @@ def hirise(known_ids):
     return items
 
 
+# ------------------------------------------------------------ ESA's library
+
+def esa_mission(result):
+    kicker = (result.get("kicker") or {}).get("label") or ""
+    title = text(result["title"])
+    for pattern, name in ESA_MISSIONS:
+        if re.search(pattern, kicker) or re.search(pattern, title):
+            return name
+    return None
+
+
+def esa_renditions(open_path, media_id):
+    """The item page links ESA's resized copies; their names carry a hash,
+    so they can't be built from the id. Returns (tv, thumb) or None."""
+    page = fetch("https://www.esa.int" + open_path).decode("utf-8", "replace")
+    found = re.findall(
+        rf"https://media\.esa\.int/[^\"' ]+image-thumb__{media_id}__fit_large/"
+        r"[^\"' ~]+?(?:@2x)?\.[0-9a-f]+\.webp", page)
+    one = [u for u in found if "@2x" not in u]
+    two = [u for u in found if "@2x" in u]
+    if not one:
+        return None
+    return (two or one)[0], one[0]
+
+
+def esa_library(known_ids):
+    results = []
+    for page in range(1, ESA_PAGES + 1):
+        d = fetch_json(ESA_SEARCH.format(page))
+        results += d["hits"]["images"]["results"]
+
+    items = []
+    for r in results:
+        mission = esa_mission(r)
+        title = text(r["title"])
+        if not mission or ESA_JUNK.search(title) or JUNK_WORDS.search(title):
+            continue
+        item_id = f"esa:{r['mediaId']}"
+        if item_id in known_ids:
+            continue
+        open_path = next((c["url"] for c in r.get("cta", [])
+                          if c.get("label") == "Open"), None)
+        if not open_path:
+            continue
+        try:
+            got = esa_renditions(open_path, r["mediaId"])
+        except urllib.error.URLError as e:
+            log(f"  esa {r['mediaId']}: {e}")
+            continue
+        if not got:
+            continue
+        tv, thumb = got
+        day = dt.datetime.strptime(r["date"].replace(".", ""), "%d %b %Y")
+        items.append({
+            "id": item_id,
+            "source": "esa",
+            "mission": mission,
+            "kind": "processed",
+            "title": title,
+            "description": text(r.get("description"), 400),
+            "date": f"{day:%Y-%m-%d}T12:00:00Z",
+            "credit": "ESA",
+            "page": "https://www.esa.int" + open_path,
+            "image": tv,      # WebP, ~3300 px wide
+            "thumb": thumb,   # WebP, ~1660 px wide
+        })
+    return items
+
+
 # ------------------------------------------------------------------------ ESA
 
 def rss_items(xml):
@@ -368,6 +474,7 @@ def main():
     previous = load_previous(args.previous)
     known = {it["id"] for it in previous.get("items", [])}
     jobs += [("hirise", lambda: hirise(known))]
+    jobs += [("esa", lambda: esa_library(known))]
 
     fresh, failed = [], []
     for name, job in jobs:

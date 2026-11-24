@@ -1,9 +1,10 @@
 {
  "version": 1,
- "updated": "2026-11-24T19:23:51Z",
+ "updated": "2026-11-24T19:43:09Z",
  "failed_sources": [],
  "counts": {
   "hirise": 30,
+  "esa": 17,
   "esahubble": 20,
   "webb": 16,
   "photojournal": 32,
@@ -27,6 +28,19 @@
    "thumb": "https://static.uahirise.org/hipod/ESP_071041_2060.jpg",
    "width": 2560,
    "height": 1920
+  },
+  {
+   "id": "esa:402420",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "Euclid's image of the farthest quasar",
+   "description": "The European Space Agency’s Euclid space telescope has discovered the most distant quasar to date: a rare 360 million-sun-mass galactic core seen just 630 million years after the Big Bang. The discovery breaks Euclid’s own previous record, announced only a few months ago, by peering back in time an additional 40 million years. It also raises a compelling question: how could such an enormous black…",
+   "date": "2026-11-24T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-image-of-farthest-quasar",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__fit_large/j1504-6252-euclid-press-master-16bit-jpg@2x.bfc2f054.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__fit_large/j1504-6252-euclid-press-master-16bit-jpg.bfc2f054.webp"
   },
   {
    "id": "esahubble:potm2611a",
@@ -72,6 +86,19 @@
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=384&h=384&fit=clip",
    "width": 0,
    "height": 0
+  },
+  {
+   "id": "esa:402718",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Didymos asteroid eclipsed by Dimorphos moonlet",
+   "description": "A solar eclipse in deep space, shown in this early view of the Didymos binary asteroids from the European Space Agency’s Hera mission for planetary defence. The smaller Dimorphos moonlet is seen casting its shadow across part of its Didymos parent body, to blank out the Sun across the shaded stretch of rocky surface.",
+   "date": "2026-11-23T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/didymos-asteroid-eclipsed-by-dimorphos-moonlet",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402718/image-thumb__402718__fit_large/9af921b0-62dc-45f0-8de7-2615a6beddc4-4-5005-c-2-crop@2x.5aad3c61.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402718/image-thumb__402718__fit_large/9af921b0-62dc-45f0-8de7-2615a6beddc4-4-5005-c-2-crop.5aad3c61.webp"
   },
   {
    "id": "hirise:2026-11-22",
@@ -191,6 +218,19 @@
    "height": 1920
   },
   {
+   "id": "esa:402652",
+   "source": "esa",
+   "mission": "Mars Express",
+   "kind": "processed",
+   "title": "The flanks of Mars’s Tharsis Tholus",
+   "description": "This view was generated from the digital terrain model and the nadir and colour channels of the High Resolution Stereo Camera on ESA’s Mars Express. It shows the flanks of Mars’s Tharsis Tholus, a fascinating peak with an eventful past. Even though it’s one of the Red Planet’s more modest volcanoes, Tharsis Tholus is still around 8 km tall, similar to the highest summits of the Himalayas. The…",
+   "date": "2026-11-17T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/space-science/the-flanks-of-mars-s-tharsis-tholus",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402652/image-thumb__402652__fit_large/s331-3d-4b-hires@2x.e0d90661.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402652/image-thumb__402652__fit_large/s331-3d-4b-hires.e0d90661.webp"
+  },
+  {
    "id": "photojournal:1512053",
    "source": "photojournal",
    "mission": "Curiosity",
@@ -221,6 +261,45 @@
    "thumb": "https://static.uahirise.org/hipod/ESP_074328_1070.jpg",
    "width": 2560,
    "height": 1920
+  },
+  {
+   "id": "esa:402560",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Hera HyperScout H image of Didymos asteroid",
+   "description": "Hera HyperScout H multispectral image of Didymos asteroid, looking at the asteroid surface in a combination of 25 colours at once to prospect surface materials. This image was acquired on 6 November 2026 from 28.5 km away.",
+   "date": "2026-11-16T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/hera-hyperscout-h-image-of-didymos-asteroid",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402560/image-thumb__402560__fit_large/hsh-image-and-grid-red-754nm@2x.629ac72d.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402560/image-thumb__402560__fit_large/hsh-image-and-grid-red-754nm.629ac72d.webp"
+  },
+  {
+   "id": "esa:402561",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Hera AFC image of Didymos",
+   "description": "Hera monochrome Asteroid Framing Camera image of asteroid Didymos from a distance of 28.5 km away, delivering a spatial resolution of approximately 2.7 m per pixel, acquired on 6 November 2026.",
+   "date": "2026-11-16T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/hera-afc-image-of-didymos",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402561/image-thumb__402561__fit_large/af1-sci-261106t033706-0@2x.976b3528.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402561/image-thumb__402561__fit_large/af1-sci-261106t033706-0.976b3528.webp"
+  },
+  {
+   "id": "esa:402558",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "TIRI image of Didymos and Dimorphos",
+   "description": "Hera's TIRI instrument thermal infrared image of Didymos and Dimorphos asteroids, acquired on 6 November 2026 from 28.5 km away from the asteroids.",
+   "date": "2026-11-16T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/tiri-image-of-didymos-and-dimorphos",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402558/image-thumb__402558__fit_large/tiri-image-20261106t033927-edit-crop@2x.3a99b38f.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402558/image-thumb__402558__fit_large/tiri-image-20261106t033927-edit-crop.3a99b38f.webp"
   },
   {
    "id": "hirise:2026-11-15",
@@ -291,6 +370,84 @@
    "height": 1920
   },
   {
+   "id": "esa:402231",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "Euclid’s view of rich galaxy cluster Abell 3128",
+   "description": "On 12 November 2026, ESA’s Euclid space telescope released its first major batch of data: DR1-Foundation. As part of this very large data release Euclid observed Abell 3128, a cluster of hundreds of galaxies lying around 800 million light-years away from us. Abell 3128 is one of the richest members of the Horologium supercluster of galaxies, which is itself made up of more than 30 smaller galaxy…",
+   "date": "2026-11-12T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-view-of-rich-galaxy-cluster-abell-3128",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402231/image-thumb__402231__fit_large/9-euclid-ews-dr1-southpr-abell3128-r4-equ-5k3k-4k@2x.f5e7546d.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402231/image-thumb__402231__fit_large/9-euclid-ews-dr1-southpr-abell3128-r4-equ-5k3k-4k.f5e7546d.webp"
+  },
+  {
+   "id": "esa:402229",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "Euclid views the core of the Messier 81 galaxy group",
+   "description": "On 12 November 2026, ESA’s Euclid space telescope released its first major batch of data: DR1-Foundation. As part of this very large data release, Euclid observed the beautiful core of the Messier 81 galaxy group, part of which is shown here. The group’s largest galaxy, Messier 81, lies to the right, with the smaller NGC 3077 to the left, and other smaller members scattered across the frame.…",
+   "date": "2026-11-12T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-views-the-core-of-the-messier-81-galaxy-group",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402229/image-thumb__402229__fit_large/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k-4k@2x.1f0f9a34.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402229/image-thumb__402229__fit_large/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k-4k.1f0f9a34.webp"
+  },
+  {
+   "id": "esa:402228",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "The hazy disc of Messier 81, spied by Euclid",
+   "description": "On 12 November 2026, ESA’s Euclid space telescope released its first major batch of data: DR1-Foundation. As part of this very large data release, Euclid observed the core of the Messier 81 galaxy group, part of which is shown here. This image demonstrates Euclid’s full resolution, revealing the sheer amount of detail the mission is capturing about our skies (for context, see the full Euclid Wide…",
+   "date": "2026-11-12T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/the-hazy-disc-of-messier-81-spied-by-euclid",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k@2x.cd774474.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k.cd774474.webp"
+  },
+  {
+   "id": "esa:402227",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "The ring galaxy NGC 1291, as seen by Euclid",
+   "description": "On 12 November 2026, ESA’s Euclid space telescope released its first major batch of data: DR1-Foundation. As part of this very large data release Euclid observed NGC 1291, a striking ring galaxy lying around 33 million light-years away from us. This image took Euclid about 1.5 days to acquire and covers a sky area of 14 deg2 (70 times the size of the full Moon). It captures not only NGC 1291 but…",
+   "date": "2026-11-12T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/the-ring-galaxy-ngc-1291-as-seen-by-euclid",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402227/image-thumb__402227__fit_large/7-euclid-ews-dr1-southpr-ngc1291wide-r2-equ-16k9k-4k@2x.a668c844.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402227/image-thumb__402227__fit_large/7-euclid-ews-dr1-southpr-ngc1291wide-r2-equ-16k9k-4k.a668c844.webp"
+  },
+  {
+   "id": "esa:402226",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "Euclid’s close-up view of NGC 1291",
+   "description": "On 12 November 2026, ESA’s Euclid space telescope released its first major batch of data: DR1-Foundation. As part of this very large data release Euclid observed NGC 1291, a striking ring galaxy lying around 33 million light-years away from us. This image – itself a close-up view of two wider Euclid views of this patch of sky showing the Horologium supercluster and NGC 1291 in wider surroundings…",
+   "date": "2026-11-12T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-close-up-view-of-ngc-1291",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402226/image-thumb__402226__fit_large/8-euclid-ews-dr1-southpr-ngc1291-r4-equ-16k9k-4k@2x.6379a7c4.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402226/image-thumb__402226__fit_large/8-euclid-ews-dr1-southpr-ngc1291-r4-equ-16k9k-4k.6379a7c4.webp"
+  },
+  {
+   "id": "esa:402225",
+   "source": "esa",
+   "mission": "Euclid",
+   "kind": "processed",
+   "title": "Euclid view of the Horologium Supercluster",
+   "description": "On 12 November 2026, ESA’s Euclid space telescope released its first major batch of data: DR1-Foundation. As part of this very large data release, Euclid observed this huge and fascinating patch of southern sky. The image comprises a total of 370 observations gathered over 18 days in autumn 2024 and spring 2025, and covers a sky area of 148 deg2 (around 740 times the size of the full Moon). This…",
+   "date": "2026-11-12T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-view-of-the-horologium-supercluster",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402225/image-thumb__402225__fit_large/6-euclid-ews-dr1-southpr-horologiumsupercluster-r1-equ-5k14k-4k@2x.023afa2e.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402225/image-thumb__402225__fit_large/6-euclid-ews-dr1-southpr-horologiumsupercluster-r1-equ-5k14k-4k.023afa2e.webp"
+  },
+  {
    "id": "hirise:2026-11-11",
    "source": "hirise",
    "mission": "MRO",
@@ -340,6 +497,19 @@
    "thumb": "https://static.uahirise.org/hipod/ESP_077433_2000.jpg",
    "width": 2560,
    "height": 1920
+  },
+  {
+   "id": "esa:402404",
+   "source": "esa",
+   "mission": "Cluster",
+   "kind": "processed",
+   "title": "ESA’s Cluster spacecraft, Tango, above Earth captured by its sister satellite, Rumba",
+   "description": "About three hours after launch on 9 August 2000, this photo of ESA’s Cluster spacecraft, Tango, above Earth was captured by its sister satellite, Rumba. The pair of Cluster spacecraft had successfully separated from the Fregat upper stage when Rumba’s Visual Monitoring Camera (VMC) snapped the photo as the two satellites drifted apart from each other. The images were downlinked to the ground…",
+   "date": "2026-11-09T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/esa-s-cluster-spacecraft-tango-above-earth-captured-by-its-sister-satellite-rumba",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402404/image-thumb__402404__fit_large/image-4@2x.49bf6810.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402404/image-thumb__402404__fit_large/image-4.49bf6810.webp"
   },
   {
    "id": "hirise:2026-11-08",
@@ -410,6 +580,19 @@
    "height": 1920
   },
   {
+   "id": "esa:402358",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Hera's first close-up of Didymos",
+   "description": "Hera's first close-up view of the Didymos binary asteroid system, acquired by its monochrome Asteroid Framing Camera from 600 km away, giving a novel view of the larger Didymos asteroid. The smaller Dimorphos asteroid is largely hidden in shadow. This smaller body was impacted by NASA's DART spacecraft on 26 September 2022, shifting its orbit around Didymos.",
+   "date": "2026-11-05T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/hera-s-first-close-up-of-didymos",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402358/image-thumb__402358__fit_large/af1-sci-261031t001400-0-2x@2x.7889fdc2.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402358/image-thumb__402358__fit_large/af1-sci-261031t001400-0-2x.7889fdc2.webp"
+  },
+  {
    "id": "esahubble:potm2610a",
    "source": "esahubble",
    "mission": "Hubble",
@@ -438,6 +621,32 @@
    "thumb": "https://static.uahirise.org/hipod/ESP_072874_2055.jpg",
    "width": 2560,
    "height": 1920
+  },
+  {
+   "id": "esa:402323",
+   "source": "esa",
+   "mission": "Mars Express",
+   "kind": "processed",
+   "title": "On the flanks of the Alba Mons volcano",
+   "description": "This image shows a region of Mars lying on the northern flanks of the Alba Mons volcano. The white spots may be caused by deposition around vents where magmatic gases may be escaping from Mars’s interior. The image, taken on 3 February 2023, is approximately 20 km by 20km in size and is centred at approximately 64.6°N/274.4°E.",
+   "date": "2026-11-04T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/human-and-robotic-exploration/mars/exomars/on-the-flanks-of-the-alba-mons-volcano",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402323/image-thumb__402323__fit_large/my37-023188-115-0-h-copy-str-c-str-lossy-1793793899@2x.b0ac4d68.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402323/image-thumb__402323__fit_large/my37-023188-115-0-h-copy-str-c-str-lossy-1793793899.b0ac4d68.webp"
+  },
+  {
+   "id": "esa:402322",
+   "source": "esa",
+   "mission": "Mars Express",
+   "kind": "processed",
+   "title": "Martian region with suspected magmatic gas release",
+   "description": "This image shows the northern flanks of the Alba Mons volcano on Mars in wider context. The white icon shows the location of the close-up image featured in this story. Credits: MEx/HRSC global colour mosaic, ESA/DLR/FU Berlin, G. Michael. Inset: Blended MOLA-HRSC digital elevation model, Fergason et al 2018.",
+   "date": "2026-11-04T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/about-us/directorates/human-and-robotic-exploration/mars/exomars/martian-region-with-suspected-magmatic-gas-release",
+   "image": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899@2x.c1b3b112.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899.c1b3b112.webp"
   },
   {
    "id": "hirise:2026-11-03",
@@ -604,6 +813,19 @@
    "thumb": "https://static.uahirise.org/hipod/ESP_077420_2020.jpg",
    "width": 2560,
    "height": 1920
+  },
+  {
+   "id": "esa:402085",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Hera's first view of the separate Didymos and Dimorphos asteroids",
+   "description": "The European Space Agency’s Hera spacecraft for planetary defence has resolved its two target asteroids separately for the very first time, revealing the binary nature of the Didymos system, currently some 197 million km away from Earth. Hera imaged Didymos and Dimorphos with its monochromatic Asteroid Framing Camera on the evening of Friday 18 October, from a distance of 1280 km away from the…",
+   "date": "2026-10-27T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/hera-s-first-view-of-the-separate-didymos-and-dimorphos-asteroids",
+   "image": "https://media.esa.int/global/public/common/image/2026/10/402085/image-thumb__402085__fit_large/didymos-2026-10-23t23-45-22@2x.f3e4d78d.webp",
+   "thumb": "https://media.esa.int/global/public/common/image/2026/10/402085/image-thumb__402085__fit_large/didymos-2026-10-23t23-45-22.f3e4d78d.webp"
   },
   {
    "id": "photojournal:1504201",

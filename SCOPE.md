@@ -135,3 +135,19 @@ Each run reads the archive and fetches only days not already in the manifest.
 Images are 2560×1920 JPEGs (~2 MB, no smaller size published). Many feature
 older observations, so items carry `taken` alongside the posting `date`.
 November yield went from 6 to ~30.
+
+## ESA library added (2026-11-24)
+
+ESA's image library has a JSON search API (`www.esa.int/api/search?category=multimedia&contentType=image`),
+about 100 images every 2–3 weeks, mostly launches, people, hardware and Earth
+observation. The builder keeps items tied to a science mission (by subject
+label or title words) and drops non-photos by title. First run: 17 images, all
+real (Euclid, Hera at Didymos, Mars Express, Cluster), about 15 a month.
+Resized WebP copies (`fit_large`, ~1660 and ~3320 wide) are linked from each
+item's page with a hash in the name, so the builder fetches that page once per
+new item. esa.int's certificate chain needs a newer root than this Mac's CA
+store has, so the builder uses `certifi`.
+
+This is a title-rule filter; the phase 3 scorer should replace it, since some
+good images are missed (subject left blank and no mission word in the title)
+and ESA's artist renderings are only caught by wording.

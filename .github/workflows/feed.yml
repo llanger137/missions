@@ -32,6 +32,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install certifi
+        run: pip install certifi
+
       - name: Build manifest
         run: >
           python3 pipeline/build_manifest.py
