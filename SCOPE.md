@@ -126,3 +126,12 @@ Built, run locally, not yet on GitHub.
 Not done in phase 1: ESA's own missions (Euclid, BepiColombo, Juice). esa.int
 returned 404/connection errors to the URLs tried; that's two URLs, not the
 site, so the ESA multimedia route is still open.
+
+## HiRISE added (2026-11-24)
+
+HiRISE Picture of the Day: one captioned Mars image a day from MRO, about 30 a
+month, from `uahirise.org/hipod/archive/` (the RSS feed only carries today's).
+Each run reads the archive and fetches only days not already in the manifest.
+Images are 2560×1920 JPEGs (~2 MB, no smaller size published). Many feature
+older observations, so items carry `taken` alongside the posting `date`.
+November yield went from 6 to ~30.

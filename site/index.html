@@ -33,7 +33,8 @@ fetch("manifest.json", {cache: "no-store"}).then(r => r.json()).then(d => {
     img.loading = "lazy"; img.src = it.thumb; img.alt = it.title;
     const t = document.createElement("div"); t.className = "txt";
     const m = document.createElement("div"); m.className = "m";
-    m.textContent = `${it.mission} · ${it.date.slice(0, 10)} · ${it.source}`;
+    m.textContent = `${it.mission} · ${it.date.slice(0, 10)} · ${it.source}` +
+      (it.taken ? ` · taken ${it.taken}` : "");
     const h = document.createElement("div"); h.textContent = it.title;
     t.append(m, h); a.append(img, t); grid.append(a);
   }

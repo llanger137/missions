@@ -5,6 +5,7 @@ Phase 1 sources (all curated by people, so no scoring yet):
   - NASA science.nasa.gov galleries for Webb, Hubble and Roman (WordPress API)
   - NASA Photojournal (same API), minus ground hardware and Earth-science
   - ESA/Webb picture of the month and ESA/Hubble picture of the week
+  - HiRISE Picture of the Day (Mars from orbit)
 
 Images are not rehosted. Each item points at a TV-sized rendition on the
 publisher's own CDN, so the manifest is the only thing this pipeline publishes.
@@ -32,7 +33,11 @@ THUMB = 384               # rendition for future LLM scoring
 
 # Newest N items kept per source after merging with the previous manifest.
 KEEP_PER_SOURCE = {"webb": 40, "hubble": 40, "roman": 40,
-                   "photojournal": 80, "esawebb": 12, "esahubble": 20}
+                   "photojournal": 80, "esawebb": 12, "esahubble": 20,
+                   "hirise": 60}
+
+HIPOD = "https://uahirise.org/hipod/"
+HIPOD_BACKFILL = 30   # newest archive entries considered
 
 NASA_GALLERIES = {"webb": 895905, "hubble": 895902, "roman": 1217464}
 
@@ -221,6 +226,58 @@ def photojournal():
     return wp_items(kept, "photojournal", mission_of)
 
 
+# --------------------------------------------------------------------- HiRISE
+
+def hipod_item(obs_id, day, title):
+    """Details for one HiPOD from its page."""
+    url = HIPOD + obs_id
+    page = fetch(url).decode("utf-8", "replace")
+    img = re.search(r"src='(https://static\.uahirise\.org/hipod/[^']+\.jpg)'",
+                    page)
+    # Today's page says "<strong>ID</strong>:", archived ones "ID:".
+    body = re.search(r"<div class='milo-text-hipod'>(.*?)"
+                     r"(?:<strong>)?ID(?:</strong>)?:\s*<a", page, re.S)
+    taken = re.search(r"date:\s*\w+, (\d+ \w+ \d{4})", page)
+    return {
+        "id": f"hirise:{day:%Y-%m-%d}",
+        "source": "hirise",
+        "mission": "MRO",
+        "instrument": "HiRISE",
+        "kind": "processed",
+        "title": title,
+        "description": text(body.group(1), 400) if body else "",
+        # HiPOD often features older observations; date is when it was posted.
+        "date": f"{day:%Y-%m-%d}T19:00:00Z",
+        "taken": (f"{dt.datetime.strptime(taken.group(1), '%d %B %Y'):%Y-%m-%d}"
+                  if taken else None),
+        "credit": "NASA/JPL-Caltech/University of Arizona",
+        "page": url,
+        # 2560 x 1920 JPEG, ~2 MB; no smaller size is published.
+        "image": img.group(1) if img else
+                 f"https://static.uahirise.org/hipod/{obs_id}.jpg",
+        "thumb": f"https://static.uahirise.org/hipod/{obs_id}.jpg",
+        "width": 2560, "height": 1920,
+    }
+
+
+def hirise(known_ids):
+    """Recent HiPODs from the archive page, fetching only days we lack."""
+    page = fetch(HIPOD + "archive/").decode("utf-8", "replace")
+    cells = re.findall(
+        r"<a href='\.\./([A-Z]+_\d+_\d+)' class='cells'>(.*?)</a><br />"
+        r"\s*(\d{1,2} \w{3} \d{4})", page)
+    items = []
+    for obs_id, title, posted in cells[:HIPOD_BACKFILL]:
+        day = dt.datetime.strptime(posted, "%d %b %Y")
+        if f"hirise:{day:%Y-%m-%d}" in known_ids:
+            continue
+        try:
+            items.append(hipod_item(obs_id, day, text(title)))
+        except urllib.error.URLError as e:
+            log(f"  hirise {obs_id}: {e}")
+    return items
+
+
 # ------------------------------------------------------------------------ ESA
 
 def rss_items(xml):
@@ -308,6 +365,9 @@ def main():
             for s, p in NASA_GALLERIES.items()]
     jobs += [("photojournal", photojournal)]
     jobs += [(s, lambda s=s: esa(s)) for s in ESA_FEEDS]
+    previous = load_previous(args.previous)
+    known = {it["id"] for it in previous.get("items", [])}
+    jobs += [("hirise", lambda: hirise(known))]
 
     fresh, failed = [], []
     for name, job in jobs:
@@ -324,7 +384,6 @@ def main():
 
     # Merge: fresh wins over previous for the same id; previous items keep
     # sources whose feeds only show their last 10 entries populated.
-    previous = load_previous(args.previous)
     by_id = {it["id"]: it for it in previous.get("items", [])}
     by_id.update({it["id"]: it for it in fresh})
 
