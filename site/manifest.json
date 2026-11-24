@@ -1,9 +1,9 @@
 {
  "version": 1,
- "updated": "2026-11-24T19:04:48Z",
+ "updated": "2026-11-24T19:06:55Z",
  "failed_sources": [],
  "counts": {
-  "esahubble": 11,
+  "esahubble": 20,
   "webb": 16,
   "photojournal": 32,
   "hubble": 18,
@@ -1214,6 +1214,19 @@
    "height": 0
   },
   {
+   "id": "esahubble:potw2552a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "A neighbouring vista of stellar birth",
+   "description": "",
+   "date": "2025-12-29T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2552a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2552a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2552a.jpg"
+  },
+  {
    "id": "hubble:1186676",
    "source": "hubble",
    "mission": "Hubble",
@@ -1227,6 +1240,19 @@
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2025/12/STScI-01K4NEMZAN3V1YQCQ8W0HB9VPE.jpg?w=384&h=384&fit=clip",
    "width": 0,
    "height": 0
+  },
+  {
+   "id": "esahubble:potw2551a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "Long-distance relationship",
+   "description": "",
+   "date": "2025-12-22T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2551a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2551a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2551a.jpg"
   },
   {
    "id": "esawebb:potm2512a",
@@ -1257,6 +1283,32 @@
    "height": 0
   },
   {
+   "id": "esahubble:potw2550a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "Galactic gas makes a getaway",
+   "description": "",
+   "date": "2025-12-15T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2550a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2550a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2550a.jpg"
+  },
+  {
+   "id": "esahubble:potw2549a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "Massive stars make their mark",
+   "description": "",
+   "date": "2025-12-08T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2549a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2549a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2549a.jpg"
+  },
+  {
    "id": "esawebb:potm2511a",
    "source": "esawebb",
    "mission": "Webb",
@@ -1268,6 +1320,71 @@
    "page": "https://esawebb.org/images/potm2511a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2511a.jpg",
    "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2511a.jpg"
+  },
+  {
+   "id": "esahubble:potw2548a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "A storm of new stars",
+   "description": "",
+   "date": "2025-12-01T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2548a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2548a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2548a.jpg"
+  },
+  {
+   "id": "esahubble:potw2547a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "Baby stars blowing bubbles",
+   "description": "",
+   "date": "2025-11-24T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2547a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2547a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2547a.jpg"
+  },
+  {
+   "id": "esahubble:potw2546a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "Finding star clusters in the Lost Galaxy",
+   "description": "",
+   "date": "2025-11-17T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2546a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2546a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2546a.jpg"
+  },
+  {
+   "id": "esahubble:potw2545a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "A disruptive neighbour",
+   "description": "",
+   "date": "2025-11-10T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2545a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2545a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2545a.jpg"
+  },
+  {
+   "id": "esahubble:potw2544a",
+   "source": "esahubble",
+   "mission": "Hubble",
+   "kind": "processed",
+   "title": "Revisiting an unusual spiral",
+   "description": "",
+   "date": "2025-11-03T05:00:00Z",
+   "credit": "ESA/Hubble",
+   "page": "https://esahubble.org/images/potw2544a/",
+   "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2544a.jpg",
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2544a.jpg"
   },
   {
    "id": "hubble:497150",
