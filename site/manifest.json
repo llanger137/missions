@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-24T19:43:09Z",
+ "updated": "2026-11-24T21:56:11Z",
  "failed_sources": [],
  "counts": {
   "hirise": 30,
@@ -27,7 +27,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_071041_2060.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_071041_2060.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spots a winding ridge in Mawrth Vallis. Its clay rocks hint that water was there long ago and could hold clues about whether tiny life ever lived there."
   },
   {
    "id": "esa:402420",
@@ -40,7 +41,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-image-of-farthest-quasar",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__fit_large/j1504-6252-euclid-press-master-16bit-jpg@2x.bfc2f054.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__fit_large/j1504-6252-euclid-press-master-16bit-jpg.bfc2f054.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__fit_large/j1504-6252-euclid-press-master-16bit-jpg.bfc2f054.webp",
+   "caption": "The Euclid telescope, out past the Moon, spotted the most faraway super bright giant black hole ever found. It weighs as much as 360 million Suns and glowed when the universe was young."
   },
   {
    "id": "esahubble:potm2611a",
@@ -53,7 +55,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2611a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2611a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2611a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2611a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant pinwheel of stars called a galaxy, with a bright glowing bar across its middle and sparkly blue arms swirling around it."
   },
   {
    "id": "hirise:2026-11-23",
@@ -70,7 +73,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_071080_1840.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_071080_1840.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted dark sand dunes shaped like crescents and domes. By comparing pictures taken years apart, scientists saw that the wind had changed them."
   },
   {
    "id": "webb:1513909",
@@ -85,7 +89,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, about four times farther away than the Moon, shows hot dust from an exploded star. What the dust is made of gives clues about the star before it blew up."
   },
   {
    "id": "esa:402718",
@@ -98,7 +103,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/didymos-asteroid-eclipsed-by-dimorphos-moonlet",
    "image": "https://media.esa.int/global/public/common/misc/2026/11/402718/image-thumb__402718__fit_large/9af921b0-62dc-45f0-8de7-2615a6beddc4-4-5005-c-2-crop@2x.5aad3c61.webp",
-   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402718/image-thumb__402718__fit_large/9af921b0-62dc-45f0-8de7-2615a6beddc4-4-5005-c-2-crop.5aad3c61.webp"
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402718/image-thumb__402718__fit_large/9af921b0-62dc-45f0-8de7-2615a6beddc4-4-5005-c-2-crop.5aad3c61.webp",
+   "caption": "The Hera spacecraft, visiting a pair of asteroids, caught the little moon Dimorphos casting its shadow on the bigger asteroid Didymos. It is a solar eclipse happening far out in space!"
   },
   {
    "id": "hirise:2026-11-22",
@@ -115,7 +121,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_070929_1900.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_070929_1900.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars shows a giant crack slicing through old hills. Its rocky walls may hold stacked layers of ancient lava, like pages in a very old book."
   },
   {
    "id": "hirise:2026-11-21",
@@ -132,7 +139,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_075874_1500.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_075874_1500.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "A camera on a spacecraft circling Mars spotted pale patches of rock among red dust and craters. These light rocks might hold salt, maybe left behind by water long ago."
   },
   {
    "id": "photojournal:1514166",
@@ -147,7 +155,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Curiosity, a car-sized robot rover driving on Mars, snapped wispy clouds drifting across the sky after sunset. These twilight clouds show up over its crater for only a short time each fall."
   },
   {
    "id": "hirise:2026-11-20",
@@ -164,7 +173,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077477_1280.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077477_1280.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The MRO spacecraft, circling Mars, spotted dark squiggly trails on bright sand dunes in Galle Crater. Spinning whirlwinds called dust devils drew them, like fingers sweeping across a dusty table."
   },
   {
    "id": "hirise:2026-11-19",
@@ -181,7 +191,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077490_2155.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077490_2155.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "A camera on the Mars Reconnaissance Orbiter, circling Mars, spotted a long ditch with a skinny ridge down the middle. Water once wore away this flat land, where two robot landers touched down long ago."
   },
   {
    "id": "hirise:2026-11-18",
@@ -198,7 +209,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_071575_1895.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_071575_1895.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "A camera on a spacecraft circling Mars shows a crater floor cracked into giant puzzle pieces. Scientists think hot lava pushed up from underground and broke the ground apart."
   },
   {
    "id": "hirise:2026-11-17",
@@ -215,7 +227,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_071869_1720.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_071869_1720.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The super-sharp HiRISE camera, circling Mars on the Mars Reconnaissance Orbiter, spotted a long, straight ridge cutting across rippled sand. Scientists are still trying to figure out how it formed."
   },
   {
    "id": "esa:402652",
@@ -228,7 +241,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/space-science/the-flanks-of-mars-s-tharsis-tholus",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402652/image-thumb__402652__fit_large/s331-3d-4b-hires@2x.e0d90661.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402652/image-thumb__402652__fit_large/s331-3d-4b-hires.e0d90661.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402652/image-thumb__402652__fit_large/s331-3d-4b-hires.e0d90661.webp",
+   "caption": "Mars Express, a spacecraft circling Mars, shows the slopes of a volcano called Tharsis Tholus. It is one of the smaller Mars volcanoes, yet it is about as tall as Earth's highest mountains."
   },
   {
    "id": "photojournal:1512053",
@@ -243,7 +257,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26804/PIA26804.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26804/PIA26804.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Curiosity rover, a car-sized robot driving on Mars, drilled all 49 of these holes in Martian rocks. It grinds the rock into powder and tests it inside its belly."
   },
   {
    "id": "hirise:2026-11-16",
@@ -260,7 +275,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_074328_1070.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_074328_1070.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spots a long, winding ridge that may be left over from an ancient river. Scientists study ridges like this to learn what Mars was like long ago."
   },
   {
    "id": "esa:402560",
@@ -273,7 +289,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/hera-hyperscout-h-image-of-didymos-asteroid",
    "image": "https://media.esa.int/global/public/common/misc/2026/11/402560/image-thumb__402560__fit_large/hsh-image-and-grid-red-754nm@2x.629ac72d.webp",
-   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402560/image-thumb__402560__fit_large/hsh-image-and-grid-red-754nm.629ac72d.webp"
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402560/image-thumb__402560__fit_large/hsh-image-and-grid-red-754nm.629ac72d.webp",
+   "caption": "The Hera spacecraft, visiting the asteroid Didymos and its little moon, snapped this space rock in 25 different colors at once, including light we can't see, to find out what it's made of."
   },
   {
    "id": "esa:402561",
@@ -286,7 +303,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/hera-afc-image-of-didymos",
    "image": "https://media.esa.int/global/public/common/misc/2026/11/402561/image-thumb__402561__fit_large/af1-sci-261106t033706-0@2x.976b3528.webp",
-   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402561/image-thumb__402561__fit_large/af1-sci-261106t033706-0.976b3528.webp"
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402561/image-thumb__402561__fit_large/af1-sci-261106t033706-0.976b3528.webp",
+   "caption": "The Hera spacecraft, which is visiting the asteroid Didymos and its little moon, took this close-up of Didymos. It flew just 30 kilometers away, close enough to see boulders bigger than a car."
   },
   {
    "id": "esa:402558",
@@ -299,7 +317,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/tiri-image-of-didymos-and-dimorphos",
    "image": "https://media.esa.int/global/public/common/misc/2026/11/402558/image-thumb__402558__fit_large/tiri-image-20261106t033927-edit-crop@2x.3a99b38f.webp",
-   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402558/image-thumb__402558__fit_large/tiri-image-20261106t033927-edit-crop.3a99b38f.webp"
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402558/image-thumb__402558__fit_large/tiri-image-20261106t033927-edit-crop.3a99b38f.webp",
+   "caption": "The Hera spacecraft used a camera that sees heat to snap the asteroid Didymos and its tiny moon Dimorphos from about 30 kilometers away. The orange parts are the warmest spots."
   },
   {
    "id": "hirise:2026-11-15",
@@ -316,7 +335,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_066456_1690.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_066456_1690.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera, on a spacecraft circling Mars, spotted bumpy ridges and channels that may be part of a fan-shaped area. Scientists hope they show whether water once flowed here."
   },
   {
    "id": "hirise:2026-11-14",
@@ -333,7 +353,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_076259_1680.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_076259_1680.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted a patch of bright, light-colored ground among dark rock and craters. Its camera is so sharp it can see things the size of a kitchen table."
   },
   {
    "id": "hirise:2026-11-13",
@@ -350,7 +371,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077442_2430.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077442_2430.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars spots a giant sand dune inside a crater. The bright patches are frost, and the dark spots show where the frost turned straight into gas."
   },
   {
    "id": "hirise:2026-11-12",
@@ -367,7 +389,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077440_1510.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077440_1510.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars spotted this rocky ridge sitting on top of older cracks in the ground. Scientists think it might be a volcano, and this sharp picture could help them find out."
   },
   {
    "id": "esa:402231",
@@ -380,7 +403,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-view-of-rich-galaxy-cluster-abell-3128",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402231/image-thumb__402231__fit_large/9-euclid-ews-dr1-southpr-abell3128-r4-equ-5k3k-4k@2x.f5e7546d.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402231/image-thumb__402231__fit_large/9-euclid-ews-dr1-southpr-abell3128-r4-equ-5k3k-4k.f5e7546d.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402231/image-thumb__402231__fit_large/9-euclid-ews-dr1-southpr-abell3128-r4-equ-5k3k-4k.f5e7546d.webp",
+   "caption": "The Euclid telescope, out past the Moon, shows a giant crowd of hundreds of galaxies. Their light traveled about 800 million years to reach us, starting long before dinosaurs lived."
   },
   {
    "id": "esa:402229",
@@ -393,7 +417,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-views-the-core-of-the-messier-81-galaxy-group",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402229/image-thumb__402229__fit_large/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k-4k@2x.1f0f9a34.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402229/image-thumb__402229__fit_large/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k-4k.1f0f9a34.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402229/image-thumb__402229__fit_large/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k-4k.1f0f9a34.webp",
+   "caption": "The Euclid telescope, out past the Moon, shows a family of galaxies close together. The big one on the right is Messier 81, and Euclid is mapping billions of galaxies like it."
   },
   {
    "id": "esa:402228",
@@ -406,7 +431,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/the-hazy-disc-of-messier-81-spied-by-euclid",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k@2x.cd774474.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k.cd774474.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k.cd774474.webp",
+   "caption": "The Euclid telescope, out past the Moon, shows the hazy glowing edge of a giant galaxy called Messier 81. Many of the tiny specks around it are other galaxies, far, far away."
   },
   {
    "id": "esa:402227",
@@ -419,7 +445,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/the-ring-galaxy-ngc-1291-as-seen-by-euclid",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402227/image-thumb__402227__fit_large/7-euclid-ews-dr1-southpr-ngc1291wide-r2-equ-16k9k-4k@2x.a668c844.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402227/image-thumb__402227__fit_large/7-euclid-ews-dr1-southpr-ngc1291wide-r2-equ-16k9k-4k.a668c844.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402227/image-thumb__402227__fit_large/7-euclid-ews-dr1-southpr-ngc1291wide-r2-equ-16k9k-4k.a668c844.webp",
+   "caption": "The Euclid telescope, out past the Moon, spotted the galaxy NGC 1291, which has a glowing ring around its bright middle. Its light traveled about 33 million years to reach us."
   },
   {
    "id": "esa:402226",
@@ -432,7 +459,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-close-up-view-of-ngc-1291",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402226/image-thumb__402226__fit_large/8-euclid-ews-dr1-southpr-ngc1291-r4-equ-16k9k-4k@2x.6379a7c4.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402226/image-thumb__402226__fit_large/8-euclid-ews-dr1-southpr-ngc1291-r4-equ-16k9k-4k.6379a7c4.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402226/image-thumb__402226__fit_large/8-euclid-ews-dr1-southpr-ngc1291-r4-equ-16k9k-4k.6379a7c4.webp",
+   "caption": "The Euclid telescope, out past the Moon, spotted a galaxy with a glowing ring around its bright middle. It is so far away that its light took over 30 million years to reach us."
   },
   {
    "id": "esa:402225",
@@ -445,7 +473,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-view-of-the-horologium-supercluster",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402225/image-thumb__402225__fit_large/6-euclid-ews-dr1-southpr-horologiumsupercluster-r1-equ-5k14k-4k@2x.023afa2e.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402225/image-thumb__402225__fit_large/6-euclid-ews-dr1-southpr-horologiumsupercluster-r1-equ-5k14k-4k.023afa2e.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402225/image-thumb__402225__fit_large/6-euclid-ews-dr1-southpr-horologiumsupercluster-r1-equ-5k14k-4k.023afa2e.webp",
+   "caption": "The Euclid telescope, out past the Moon, snapped this giant patch of sky full of galaxies. It is as big as about 700 full Moons and was stitched together from almost 400 pictures."
   },
   {
    "id": "hirise:2026-11-11",
@@ -462,7 +491,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_076185_1645.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_076185_1645.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "A camera on the Mars Reconnaissance Orbiter, circling Mars, spotted pale rock that may be untouched pieces of Mars's rocky outer layer. Someday a robot helicopter might fly here to explore it."
   },
   {
    "id": "hirise:2026-11-10",
@@ -479,7 +509,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077449_2235.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077449_2235.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars spotted what may be an island of older ground on Mars's northern plains, surrounded by a sea of newer lava that flowed around it."
   },
   {
    "id": "hirise:2026-11-09",
@@ -496,7 +527,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077433_2000.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077433_2000.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted cracks in the ground inside a giant crater. They might be left over from a lake that dried up long, long ago."
   },
   {
    "id": "esa:402404",
@@ -509,7 +541,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/esa-s-cluster-spacecraft-tango-above-earth-captured-by-its-sister-satellite-rumba",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402404/image-thumb__402404__fit_large/image-4@2x.49bf6810.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402404/image-thumb__402404__fit_large/image-4.49bf6810.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402404/image-thumb__402404__fit_large/image-4.49bf6810.webp",
+   "caption": "Just three hours after launch, the European satellite Rumba snapped this photo of its twin sister, Tango, floating high above Earth as the two drifted apart."
   },
   {
    "id": "hirise:2026-11-08",
@@ -526,7 +559,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_065711_1545.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_065711_1545.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera, on a spacecraft circling Mars, spotted twisty ridges inside a crater. Scientists think they might be old riverbeds, left standing up high after the ground around them wore away."
   },
   {
    "id": "hirise:2026-11-07",
@@ -543,7 +577,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_065710_2170.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_065710_2170.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted long ridges that may have been left by water melting under a glacier, surprising on a planet so cold and dry today."
   },
   {
    "id": "hirise:2026-11-06",
@@ -560,7 +595,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_055565_1750.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_055565_1750.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars shows thin layers of rock near where the Curiosity rover is exploring. It's so sharp it can spot things as small as a kitchen table!"
   },
   {
    "id": "hirise:2026-11-05",
@@ -577,7 +613,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_065390_1610.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_065390_1610.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, shows old stream beds in a worn-down crater that now stick up as ridges, because they were tougher than the softer ground that wore away around them."
   },
   {
    "id": "esa:402358",
@@ -590,7 +627,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/hera-s-first-close-up-of-didymos",
    "image": "https://media.esa.int/global/public/common/misc/2026/11/402358/image-thumb__402358__fit_large/af1-sci-261031t001400-0-2x@2x.7889fdc2.webp",
-   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402358/image-thumb__402358__fit_large/af1-sci-261031t001400-0-2x.7889fdc2.webp"
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402358/image-thumb__402358__fit_large/af1-sci-261031t001400-0-2x.7889fdc2.webp",
+   "caption": "The Hera spacecraft, visiting a pair of space rocks, snapped the big asteroid Didymos from 600 km away. Its little moon, hidden in shadow, was once bumped by a NASA spacecraft, changing its path."
   },
   {
    "id": "esahubble:potm2610a",
@@ -603,7 +641,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2610a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2610a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2610a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2610a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant ball of stars packed together like a swarm of bees. Almost every tiny dot you see is a whole sun."
   },
   {
    "id": "hirise:2026-11-04",
@@ -620,7 +659,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_072874_2055.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_072874_2055.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "Mars Reconnaissance Orbiter, circling Mars, shows a big rocky hill with stripes of stacked rock layers, like a layer cake. Its camera is so sharp it can spot things the size of a kitchen table."
   },
   {
    "id": "esa:402323",
@@ -633,7 +673,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/human-and-robotic-exploration/mars/exomars/on-the-flanks-of-the-alba-mons-volcano",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402323/image-thumb__402323__fit_large/my37-023188-115-0-h-copy-str-c-str-lossy-1793793899@2x.b0ac4d68.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402323/image-thumb__402323__fit_large/my37-023188-115-0-h-copy-str-c-str-lossy-1793793899.b0ac4d68.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402323/image-thumb__402323__fit_large/my37-023188-115-0-h-copy-str-c-str-lossy-1793793899.b0ac4d68.webp",
+   "caption": "Mars Express, a spacecraft circling Mars, looks down on the side of a giant volcano. The white spots might be where gas from deep inside Mars is leaking out."
   },
   {
    "id": "esa:402322",
@@ -646,7 +687,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/about-us/directorates/human-and-robotic-exploration/mars/exomars/martian-region-with-suspected-magmatic-gas-release",
    "image": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899@2x.c1b3b112.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899.c1b3b112.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899.c1b3b112.webp",
+   "caption": "The Mars Express spacecraft, which circles Mars, mapped a giant volcano called Alba Mons. Scientists think hot gas from deep underground may be leaking out of the ground near it."
   },
   {
    "id": "hirise:2026-11-03",
@@ -663,7 +705,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_065343_2030.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_065343_2030.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted strange round dips on the edge of a big crater. Scientists don't know what made them yet, maybe a space rock crash or hidden ice!"
   },
   {
    "id": "hirise:2026-11-02",
@@ -680,7 +723,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_093280_2095.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_093280_2095.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars shows the edge of an old lava flow near Elysium Mons, a volcano almost twice as tall as Mount Everest."
   },
   {
    "id": "hubble:1506765",
@@ -695,7 +739,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a small galaxy full of new stars. Scientists found galaxies like this lose most of the oxygen their stars make."
   },
   {
    "id": "hirise:2026-11-01",
@@ -712,7 +757,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_069643_1605.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_069643_1605.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted swirly patterns where the ground flowed after a space rock made a nearby crater. Its camera can see things as small as a kitchen table."
   },
   {
    "id": "hirise:2026-10-31",
@@ -729,7 +775,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_065269_1695.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_065269_1695.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted ground cracked into giant shapes like a turtle shell. Ice under the surface shrinking and swelling may have pushed the ground into these patterns."
   },
   {
    "id": "hirise:2026-10-30",
@@ -746,7 +793,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_093841_1480.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_093841_1480.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars shows a very old rocky hill full of surprising colors. The orange rocks may have been changed by water long ago."
   },
   {
    "id": "hirise:2026-10-29",
@@ -763,7 +811,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_092552_1420.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_092552_1420.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted a small crater inside a bigger one. The crash dug through a dusty blanket to show bright layers of ancient rock hidden underneath."
   },
   {
    "id": "hubble:1505686",
@@ -778,7 +827,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/10/STScI-01M4BZ6G5147CKYXY9C9SY3D9F.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/10/STScI-01M4BZ6G5147CKYXY9C9SY3D9F.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a tall dark tower of dust and gas shaped like a cat's head. Its glowing red eye may be a baby star hiding inside."
   },
   {
    "id": "hirise:2026-10-28",
@@ -795,7 +845,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077421_2255.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077421_2255.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars shows bumpy, wrinkly ground shaped by ice. This camera is so sharp it can spot things the size of a kitchen table!"
   },
   {
    "id": "hirise:2026-10-27",
@@ -812,7 +863,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_077420_2020.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_077420_2020.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The HiRISE camera, circling Mars on the Mars Reconnaissance Orbiter, shows sand dunes in a valley where strong winds push lots of sand. Its camera is so sharp it can spot something as small as a kitchen table."
   },
   {
    "id": "esa:402085",
@@ -825,7 +877,8 @@
    "credit": "ESA",
    "page": "https://www.esa.int/media/hera-s-first-view-of-the-separate-didymos-and-dimorphos-asteroids",
    "image": "https://media.esa.int/global/public/common/image/2026/10/402085/image-thumb__402085__fit_large/didymos-2026-10-23t23-45-22@2x.f3e4d78d.webp",
-   "thumb": "https://media.esa.int/global/public/common/image/2026/10/402085/image-thumb__402085__fit_large/didymos-2026-10-23t23-45-22.f3e4d78d.webp"
+   "thumb": "https://media.esa.int/global/public/common/image/2026/10/402085/image-thumb__402085__fit_large/didymos-2026-10-23t23-45-22.f3e4d78d.webp",
+   "caption": "ESA's Hera spacecraft, on its way to the asteroid Didymos, sees it and its small moon Dimorphos as two separate dots for the very first time, about 200 million kilometers from Earth."
   },
   {
    "id": "photojournal:1504201",
@@ -840,7 +893,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Perseverance rover, a car-sized robot driving on Mars, joined over 200 pictures to show this dusty valley. Billions of years ago, a river flowed here carrying fresh water."
   },
   {
    "id": "hirise:2026-10-26",
@@ -857,7 +911,8 @@
    "image": "https://static.uahirise.org/hipod/ESP_065191_1850.jpg",
    "thumb": "https://static.uahirise.org/hipod/ESP_065191_1850.jpg",
    "width": 2560,
-   "height": 1920
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, looks straight down at old lava that cracked into big plates like floating ice, with lava swirls bigger than any found on Earth."
   },
   {
    "id": "esawebb:potm2610a",
@@ -870,7 +925,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2610a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2610a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2610a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2610a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, looks into a giant swirling cloud of dust and gas. Like a bubbling pot of soup, it is cooking up brand-new stars."
   },
   {
    "id": "photojournal:1487818",
@@ -885,7 +941,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26812/PIA26812.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26812/PIA26812.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Perseverance rover, a car-sized robot driving on Mars, looks back at its wheel tracks on a rocky hill. That day it drove about a football field's length and reached a record."
   },
   {
    "id": "photojournal:1472651",
@@ -900,7 +957,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26781/PIA26781.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26781/PIA26781.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Curiosity, a car-sized robot rover driving on Mars, looks back at the floor of a giant crater. It has now climbed about 1 kilometer higher, as tall as three Eiffel Towers stacked up."
   },
   {
    "id": "photojournal:1472636",
@@ -915,7 +973,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia25/pia25629/PIA25629.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia25/pia25629/PIA25629.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Curiosity rover, a car-sized robot driving on Mars, watched sunrise light up faraway hills shaped by wind. Over a very long time, Martian wind carved these rocks, like sand slowly scratching stone."
   },
   {
    "id": "webb:1450401",
@@ -930,7 +989,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/STScI-01M2RAWEPQ0YFBJH9VZHV49SQT.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/STScI-01M2RAWEPQ0YFBJH9VZHV49SQT.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows baby stars being born inside glowing clouds of gas. The red swirls are cooler gas, pushed and stirred up by the growing young stars."
   },
   {
    "id": "esawebb:potm2609a",
@@ -943,7 +1003,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2609a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2609a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2609a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2609a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, sees a huge crowd of galaxies. Their gravity bends light like a funhouse mirror, stretching galaxies behind them into glowing orange streaks."
   },
   {
    "id": "photojournal:1378211",
@@ -958,7 +1019,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26815/PIA26815.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26815/PIA26815.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Perseverance rover, a car-sized robot driving on Mars, snapped over 800 pictures that were joined together into this all-around view of a rocky spot called Turquoise Bay."
   },
   {
    "id": "esahubble:potm2609a",
@@ -971,7 +1033,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2609a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2609a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2609a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2609a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant swirl of stars with dusty arms. Scientists say this galaxy is spinning out of sync, like dancers who lost the beat."
   },
   {
    "id": "webb:1306529",
@@ -986,7 +1049,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/09/STScI-01M0JFFAD7SDCCNHWT7T7P3QX9.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/09/STScI-01M0JFFAD7SDCCNHWT7T7P3QX9.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far out past the Moon, shows a cloud of dust and gas making new stars. It found tiny failed stars only about twice as heavy as Jupiter."
   },
   {
    "id": "esahubble:potm2608a",
@@ -999,7 +1063,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2608a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2608a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2608a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2608a.jpg",
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, shows a superbubble: a giant hollow in glowing clouds of dust and gas, blown out by powerful stars."
   },
   {
    "id": "hubble:1282352",
@@ -1014,7 +1079,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/09/STScI-01M0T8BARTCFQW684XQ932TNNM.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/09/STScI-01M0T8BARTCFQW684XQ932TNNM.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, spotted a giant 10-sided shape swirling in the clouds at Saturn's south pole, like a wavy pattern drawn around the bottom of the planet."
   },
   {
    "id": "esawebb:potm2608a",
@@ -1027,7 +1093,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2608a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2608a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2608a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2608a.jpg",
+   "caption": "The James Webb Space Telescope, far out past the Moon, shows a small, lumpy galaxy sprinkled with thousands of stars. Its glowing red clumps of dust and gas are places where new stars are being born."
   },
   {
    "id": "photojournal:1279590",
@@ -1042,7 +1109,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26811/PIA26811.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26811/PIA26811.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Perseverance rover, a car-sized robot driving on Mars, watched Phobos, one of Mars's two moons, pass in front of the Sun. This lumpy, potato-shaped moon makes a mini eclipse."
   },
   {
    "id": "webb:1274139",
@@ -1057,7 +1125,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/08/STScI-01KX6D0XBHSYP7Q1EM5QTC43RP.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/08/STScI-01KX6D0XBHSYP7Q1EM5QTC43RP.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows the Lion Nebula, glowing gas and dust puffed out by a dying star. The middle looks like a lion's face, with a fluffy mane around it."
   },
   {
    "id": "esawebb:potm2607a",
@@ -1070,7 +1139,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2607a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2607a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2607a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2607a.jpg",
+   "caption": "The James Webb Space Telescope, which sits beyond the Moon, peeks into a giant glowing cloud of dust and gas nicknamed the Treasure Chest, filled with stars that sparkle like jewels."
   },
   {
    "id": "photojournal:1273813",
@@ -1085,7 +1155,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26758/PIA26758.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26758/PIA26758.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Perseverance, a car-sized robot rover on Mars, watched our whole planet Earth, just a tiny dot, slide behind Mars's little moon Phobos. Everyone you know is in that dot!"
   },
   {
    "id": "photojournal:1260562",
@@ -1100,7 +1171,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26730/PIA26730.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26730/PIA26730.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Curiosity, a car-sized robot rover driving on Mars, spotted a rocky hill about as tall as a two-story house. It was left standing when the rock around it slowly wore away."
   },
   {
    "id": "photojournal:1260548",
@@ -1115,7 +1187,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26729/PIA26729.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26729/PIA26729.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Curiosity, a car-sized robot rover driving on Mars, took this all-around view of ground covered in shapes like floor tiles. It has seen these shapes before, but never so many in one place!"
   },
   {
    "id": "hubble:1259011",
@@ -1130,7 +1203,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/07/STScI-01KXZZ6H029XBJTKYKRPARFJE9.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/07/STScI-01KXZZ6H029XBJTKYKRPARFJE9.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows part of the Andromeda Galaxy. Each tiny dot is a star, and Hubble captured millions of them in one picture!"
   },
   {
    "id": "esahubble:potm2607a",
@@ -1143,7 +1217,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2607a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2607a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2607a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2607a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a lopsided spiral galaxy with one side bigger than the other. It's a giant swirl of billions of stars, with glowing pink clouds."
   },
   {
    "id": "photojournal:1258607",
@@ -1158,7 +1233,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26756/PIA26756.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26756/PIA26756.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Juno spacecraft, which circles Jupiter, made this heat map of Jupiter's moon Io. Juno can sense warmth coming from under the ground, and the red patches show the hottest places."
   },
   {
    "id": "photojournal:1257530",
@@ -1173,7 +1249,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26586/PIA26586.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26586/PIA26586.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Psyche spacecraft, flying to a metal asteroid, snapped Mars again and again as it zoomed closer, so the red planet's crescent grows bigger in each picture. Mars's pull then gave it a slingshot boost."
   },
   {
    "id": "photojournal:1257376",
@@ -1188,7 +1265,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26749/PIA26749.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26749/PIA26749.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Psyche spacecraft, on its way to a metal asteroid, zoomed past Mars and snapped these craters. It took the four pictures for this view in just six minutes."
   },
   {
    "id": "photojournal:1256681",
@@ -1203,7 +1281,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26728/PIA26728.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26728/PIA26728.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Curiosity rover, a car-sized robot driving on Mars, found striped rocks made by a wild sandstorm billions of years ago. The wind piled sand ripples on top of each other until they turned to stone."
   },
   {
    "id": "photojournal:1256630",
@@ -1218,7 +1297,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26755/PIA26755.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26755/PIA26755.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Perseverance, a car-sized robot rover driving on Mars, looks back up at the edge of a giant crater, a hill about 500 feet tall. You can even see its wheel tracks!"
   },
   {
    "id": "photojournal:1256565",
@@ -1233,7 +1313,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26754/PIA26754.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26754/PIA26754.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "This map, taken from above Mars, shows the winding trip of Perseverance, a car-sized robot rover driving on Mars, to stacked rock layers called Broom Point that are about 4 billion years old."
   },
   {
    "id": "webb:1251698",
@@ -1248,7 +1329,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KVT4GQMQ5MXV6XDPFPZMXG65.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KVT4GQMQ5MXV6XDPFPZMXG65.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, which sits beyond the Moon, uses infrared light we can't see to peek through thick dust and gas inside Centaurus A, a nearby galaxy full of hidden activity."
   },
   {
    "id": "webb:1251700",
@@ -1263,7 +1345,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KVT7DD8N4T05XGZCT15QZEZ9.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KVT7DD8N4T05XGZCT15QZEZ9.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, which sits beyond the Moon, used infrared light we can't see to photograph the galaxy Centaurus A, showing millions of stars glowing behind ribbons of dust and gas."
   },
   {
    "id": "esawebb:potm2606a",
@@ -1276,7 +1359,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2606a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2606a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2606a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2606a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows a huge crowd of galaxies still coming together. Its gravity bends light from galaxies behind it into glowing, stretched arcs."
   },
   {
    "id": "webb:1252470",
@@ -1291,7 +1375,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KVX6065VS4VSDVG0S1NSVB6C.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KVX6065VS4VSDVG0S1NSVB6C.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, used infrared light we can't see to spot baby stars blowing glowing orange jets into dust and gas, with faraway galaxies sprinkled behind them."
   },
   {
    "id": "esahubble:potm2606a",
@@ -1304,7 +1389,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2606a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2606a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2606a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2606a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant ball of stars that sparkles like a chandelier. Thousands of stars are packed so close together they look like glitter."
   },
   {
    "id": "photojournal:1229975",
@@ -1319,7 +1405,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26726/PIA26726.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26726/PIA26726.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, spotted the Perseverance rover as a tiny speck. The car-sized robot was about to finish driving 26 miles on Mars, as far as a whole marathon race!"
   },
   {
    "id": "hubble:1229269",
@@ -1334,7 +1421,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/06/STScI-01KV6GC312KY26Z9KGR2YQH042.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/06/STScI-01KV6GC312KY26Z9KGR2YQH042.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, spots a tiny far-off galaxy in the box. Bursts of young stars cleared out the space in and around it, like sweeping a room clean."
   },
   {
    "id": "webb:1228601",
@@ -1349,7 +1437,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/06/STScI-01KM3Q4ECK24AXTM2GVW47V389.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/06/STScI-01KM3Q4ECK24AXTM2GVW47V389.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, and Hubble, circling Earth, teamed up to show the Cigar Galaxy, with about 16 million stars and huge clouds of dust and gas bursting out."
   },
   {
    "id": "webb:1227084",
@@ -1364,7 +1453,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/06/STScI-01KTV7RPWZFWRPJZGXFCJHC3SQ.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/06/STScI-01KTV7RPWZFWRPJZGXFCJHC3SQ.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, and Hubble, circling Earth, show Terzan 5, a giant ball of stars near our galaxy's center that made up to four families of stars."
   },
   {
    "id": "esawebb:potm2605a",
@@ -1377,7 +1467,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2605a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2605a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2605a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2605a.jpg",
+   "caption": "The James Webb Space Telescope, far out past the Moon, shows clouds of dust and gas where baby stars are being born. Some stars are just starting to form, while others are already shining brightly."
   },
   {
    "id": "esahubble:potm2605a",
@@ -1390,7 +1481,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2605a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2605a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2605a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2605a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant spiral galaxy near the middle of a crowded family of galaxies. Its swirling arms hold billions of stars, like a spinning pinwheel."
   },
   {
    "id": "photojournal:1221013",
@@ -1405,7 +1497,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26775/PIA26775.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26775/PIA26775.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Psyche spacecraft, flying to a metal asteroid, snapped this view of Mars. The big double-ring crater at top right, Huygens, is about 300 miles wide, as long as a five-hour car ride."
   },
   {
    "id": "photojournal:1221006",
@@ -1420,7 +1513,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26774/PIA26774.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26774/PIA26774.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Psyche spacecraft, on its way to a metal asteroid, zoomed past Mars and spotted craters with long tails. Martian wind blowing over the craters painted these streaks."
   },
   {
    "id": "photojournal:1220998",
@@ -1435,7 +1529,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26773/PIA26773.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26773/PIA26773.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Psyche spacecraft, flying to a metal asteroid, zoomed past Mars and snapped its south pole, where a giant cap of water ice stretches more than 400 miles across."
   },
   {
    "id": "photojournal:1220989",
@@ -1450,7 +1545,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26772/PIA26772.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26772/PIA26772.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Psyche spacecraft, flying to a metal asteroid, zoomed past Mars and looked back to see the bright icy south pole and a giant canyon on the planet."
   },
   {
    "id": "photojournal:1220979",
@@ -1465,7 +1561,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26771/PIA26771.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26771/PIA26771.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Psyche spacecraft, flying to a metal asteroid, snapped this thin crescent of Mars as it swooped close. Mars's gravity gave it a slingshot push to help it on its way."
   },
   {
    "id": "photojournal:1219092",
@@ -1480,7 +1577,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26753/PIA26753.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26753/PIA26753.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Perseverance, a car-sized robot driving on Mars, stitched 46 pictures together to show this rocky place nicknamed Arbot. It's the farthest west the rover has ever gone beyond the big crater where it landed."
   },
   {
    "id": "photojournal:1219068",
@@ -1495,7 +1593,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26752/PIA26752.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26752/PIA26752.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Perseverance, a car-sized robot rover driving on Mars, snapped this selfie by stitching together 61 photos. It is looking at a rock where it scraped off a round patch to see inside."
   },
   {
    "id": "photojournal:1218942",
@@ -1510,7 +1609,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26724/PIA26724.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26724/PIA26724.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Curiosity, a car-sized robot rover driving on Mars, took this close look at a rock called Atacama. The rock got stuck on the rover's drill, and you can see the drill hole."
   },
   {
    "id": "photojournal:1218399",
@@ -1525,7 +1625,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26750/PIA26750.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26750/PIA26750.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Psyche spacecraft, flying to a metal asteroid, snapped this glowing crescent of Mars from about 3 million miles away. Soon it will swing past Mars to get a speed boost, like a slingshot."
   },
   {
    "id": "esawebb:potm2604a",
@@ -1538,7 +1639,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2604a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2604a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2604a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2604a.jpg",
+   "caption": "The James Webb Space Telescope, which sits beyond the Moon, shows a swirling galaxy wrapped in dust and gas. Its middle shines so brightly that it makes a giant sparkle."
   },
   {
    "id": "photojournal:1216224",
@@ -1553,7 +1655,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26699/PIA26699.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26699/PIA26699.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Perseverance, a car-sized robot rover driving on Mars, snapped almost 1000 pictures and stitched them into one giant view all the way around a spot called Crocodile Bridge."
   },
   {
    "id": "photojournal:1217339",
@@ -1568,7 +1671,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26751/PIA26751.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26751/PIA26751.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Juno spacecraft, which circles Jupiter, snapped this picture of Thebe, one of Jupiter's small inner moons. Juno zoomed by only about 3,000 miles away, about as far as across the United States."
   },
   {
    "id": "esahubble:potm2604a",
@@ -1581,7 +1685,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2604a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2604a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2604a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2604a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a spiral galaxy full of billions of stars. The glowing pink spots are clouds of dust and gas where new stars are being born."
   },
   {
    "id": "photojournal:1215979",
@@ -1596,7 +1701,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26696/PIA26696.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26696/PIA26696.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "Curiosity, a car-sized robot rover driving on Mars, snapped this all-the-way-around view of low rocky ridges. It is one of its biggest pictures ever, made of 1.5 billion tiny dots."
   },
   {
    "id": "photojournal:1215962",
@@ -1611,7 +1717,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26721/PIA26721.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26721/PIA26721.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's Curiosity rover, a car-sized robot driving on Mars, used a camera on its head to snap its own wheels rolling over cracked rocks. These pictures cover six whole years of driving."
   },
   {
    "id": "hubble:1213557",
@@ -1626,7 +1733,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/04/STScI-01KM5VPG2R1WX1SY7ASDJ9JEV5.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/04/STScI-01KM5VPG2R1WX1SY7ASDJ9JEV5.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, shows the Trifid Nebula, a giant cloud of dust and gas where new stars are born. Hubble first photographed it 36 years ago."
   },
   {
    "id": "hubble:1213559",
@@ -1641,7 +1749,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/04/STScI-01KNJAW2K6J7EHY6FWDYRBQ6XT.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/04/STScI-01KNJAW2K6J7EHY6FWDYRBQ6XT.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, zooms into one small square of the Trifid Nebula, a giant cloud of dust and gas. A telescope in Chile took the wide view."
   },
   {
    "id": "photojournal:1212725",
@@ -1656,7 +1765,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26748/PIA26748.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26748/PIA26748.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "NASA's SPHEREx telescope, circling Earth to map the whole sky, spots frozen water, shown in blue, inside Cygnus X, a stormy cloud of dust and gas where many new stars are being born."
   },
   {
    "id": "webb:1211712",
@@ -1671,7 +1781,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/04/STScI-01KHV7GAYRJ1X6T6TG3VJ6H5F4.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/04/STScI-01KHV7GAYRJ1X6T6TG3VJ6H5F4.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, snapped a giant planet 15 times heavier than Jupiter next to its star, which is hidden by the blue shape so its glare doesn't drown out the planet."
   },
   {
    "id": "esawebb:potm2603a",
@@ -1684,7 +1795,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2603a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2603a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2603a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2603a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows two baby stars wrapped in flat discs of dust and gas, seen from the side. New planets could be forming inside them right now."
   },
   {
    "id": "esahubble:potm2603a",
@@ -1697,7 +1809,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2603a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2603a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2603a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2603a.jpg",
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, shows a giant spinning galaxy shaped like a swirl. The blue sparkly spots in its arms are places where brand-new stars are being born."
   },
   {
    "id": "webb:1208606",
@@ -1712,7 +1825,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/03/STScI-01KJTK6737FT47YSK9RZ4T5YVM.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/03/STScI-01KJTK6737FT47YSK9RZ4T5YVM.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Webb telescope, far past the Moon, and Hubble, circling Earth, both snapped Saturn. In infrared light we can't see, Saturn's rings glow super bright, and little moons show up nearby."
   },
   {
    "id": "hubble:1208115",
@@ -1727,7 +1841,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/03/STScI-01KJQWS2TX2REXHGQ32X7EJ7V1.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/03/STScI-01KJQWS2TX2REXHGQ32X7EJ7V1.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows the leftovers of a star that exploded almost 1000 years ago. Comparing new and old pictures shows the giant cloud is still growing."
   },
   {
    "id": "hubble:1206943",
@@ -1742,7 +1857,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/03/STScI-01KJ67XN05F6FZKR1NR53F4YKJ.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/03/STScI-01KJ67XN05F6FZKR1NR53F4YKJ.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, watched a comet crumble into pieces over three days. Hubble has never caught a comet this early in breaking apart."
   },
   {
    "id": "esahubble:potm2602a",
@@ -1755,7 +1871,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2602a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2602a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2602a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2602a.jpg",
+   "caption": "Euclid, a telescope out past the Moon, and Hubble, circling Earth, teamed up to show a glowing cloud shaped like a giant eye. Many tiny dots behind it are faraway galaxies."
   },
   {
    "id": "webb:1201673",
@@ -1770,7 +1887,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/02/STScI-01K5YFY0K6RHAYK583GH49EECC.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/02/STScI-01K5YFY0K6RHAYK583GH49EECC.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, and Hubble, circling Earth, show a spiral galaxy where a giant red star exploded. Webb spotted the star before it blew up, when Hubble couldn't see it."
   },
   {
    "id": "esawebb:potm2602a",
@@ -1783,7 +1901,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2602a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2602a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2602a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2602a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows a nearby spiral galaxy swirling like a pinwheel. Its glowing red arms of dust and gas are where stars are born, live and die."
   },
   {
    "id": "hubble:1199762",
@@ -1798,7 +1917,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/02/STScI-01K7PSFCSX5NBNBT6778SKHZ2D.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/02/STScI-01K7PSFCSX5NBNBT6778SKHZ2D.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, spotted a ghostly galaxy inside the red circle. It is mostly made of invisible stuff, with only a few stars and four tight star balls."
   },
   {
    "id": "hubble:1198386",
@@ -1813,7 +1933,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/02/STScI-01KAEVP71560HQNPJMT2ZC0GA6.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/02/STScI-01KAEVP71560HQNPJMT2ZC0GA6.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, took its clearest look yet at the Egg Nebula. A dying star like our Sun puffed out these glowing rings of dust and gas."
   },
   {
    "id": "esahubble:potm2601a",
@@ -1826,7 +1947,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potm2601a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potm2601a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2601a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potm2601a.jpg",
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, shows a galaxy with a glowing center wrapped in twisty dark ribbons of dust, and that glow comes from billions of stars."
   },
   {
    "id": "webb:1194376",
@@ -1841,7 +1963,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01K3HEQQQ86HVER8ZEE8QQMCGX.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01K3HEQQQ86HVER8ZEE8QQMCGX.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, four times farther than the Moon, spotted the yellow dot in the box: a galaxy seen as it looked when the universe was a baby, under 300 million years old."
   },
   {
    "id": "hubble:1194026",
@@ -1856,7 +1979,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/01/STScI-01KA9Q1B4XSJJ4MS39W4H29AXV.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/01/STScI-01KA9Q1B4XSJJ4MS39W4H29AXV.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, found six weird galaxies nobody had noticed before. In some, gravity bends light into glowing arcs, like a giant magnifying glass."
   },
   {
    "id": "esawebb:potm2601a",
@@ -1869,7 +1993,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2601a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2601a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2601a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2601a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows a huge crowd of galaxies. Almost every tiny dot here is a whole galaxy, packed with billions of stars like our Sun."
   },
   {
    "id": "webb:1192916",
@@ -1884,7 +2009,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KESWN3G28KZCQPZ2GHHDKAC3.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KESWN3G28KZCQPZ2GHHDKAC3.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, spots a baby star in the circle. Tiny crystals form in the hot dust around it and may get flung far out, like sparks."
   },
   {
    "id": "webb:1192504",
@@ -1899,7 +2025,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, far beyond the Moon, shows a dying star's puffed-off gas, full of thousands of glowing knots shaped like tiny comets, blown by fierce winds from the star."
   },
   {
    "id": "webb:1188822",
@@ -1914,7 +2041,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCHNKMS0W0PAJ0PTP8R99X4B.png?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCHNKMS0W0PAJ0PTP8R99X4B.png?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The James Webb Space Telescope, which sits beyond the Moon, zooms in on a small nearby galaxy called Sextans A. The box shows where, and Webb sees thousands of its stars one by one."
   },
   {
    "id": "hubble:1188798",
@@ -1929,7 +2057,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/01/STScI-01KDNZZAJQ5ZAZJK3FM5Y0RCCN.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/01/STScI-01KDNZZAJQ5ZAZJK3FM5Y0RCCN.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, measured light from star Betelgeuse. This chart shows the light changing as a partner star circles it, leaving a trail like a boat's wake."
   },
   {
    "id": "hubble:1188537",
@@ -1944,7 +2073,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/01/STScI-01K7Q4G9NW9TW4F0S95ST16E5M.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/01/STScI-01K7Q4G9NW9TW4F0S95ST16E5M.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, looked inside Cloud-9, a pink-glowing cloud of gas. It found no stars at all, only faraway galaxies shining from behind."
   },
   {
    "id": "esahubble:potw2552a",
@@ -1957,7 +2087,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2552a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2552a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2552a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2552a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant glowing cloud of dust and gas where new stars are being born, with dark dusty clouds twisting through it like smoke."
   },
   {
    "id": "hubble:1186676",
@@ -1972,7 +2103,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2025/12/STScI-01K4NEMZAN3V1YQCQ8W0HB9VPE.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2025/12/STScI-01K4NEMZAN3V1YQCQ8W0HB9VPE.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows the biggest disk of dust and gas ever seen around a young star. New planets can form there, and it's 40 times wider than our solar system!"
   },
   {
    "id": "esahubble:potw2551a",
@@ -1985,7 +2117,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2551a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2551a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2551a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2551a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a big blue spiral galaxy next to a smaller golden one. Each swirl is a giant city of billions of stars."
   },
   {
    "id": "esawebb:potm2512a",
@@ -1998,7 +2131,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2512a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2512a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2512a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2512a.jpg",
+   "caption": "The James Webb Space Telescope, far beyond the Moon, spots thousands of glittering stars, including many tiny dwarf stars, peeking out from glowing orange clouds of dust and gas."
   },
   {
    "id": "hubble:1185037",
@@ -2013,7 +2147,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2025/12/STScI-01KC4RSEX3DWKE5PY1YTS5FW3S.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2025/12/STScI-01KC4RSEX3DWKE5PY1YTS5FW3S.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant ring of dust around the star Fomalhaut. Two glowing dust clouds popped up there, one seen in 2012 and one in 2023."
   },
   {
    "id": "esahubble:potw2550a",
@@ -2026,7 +2161,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2550a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2550a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2550a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2550a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a galaxy tilted on its side. Some of its gas is making a getaway, like smoke blowing off a campfire."
   },
   {
    "id": "esahubble:potw2549a",
@@ -2039,7 +2175,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2549a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2549a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2549a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2549a.jpg",
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, shows a small galaxy made of countless stars. The pink patches are clouds of gas lit up by huge, super-bright stars."
   },
   {
    "id": "esawebb:potm2511a",
@@ -2052,7 +2189,8 @@
    "credit": "ESA/Webb",
    "page": "https://esawebb.org/images/potm2511a/",
    "image": "https://cdn.esawebb.org/archives/images/wallpaper4/potm2511a.jpg",
-   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2511a.jpg"
+   "thumb": "https://cdn.esawebb.org/archives/images/thumb700x/potm2511a.jpg",
+   "caption": "The James Webb Space Telescope, which sits beyond the Moon, shows two small galaxies twirling close together like dance partners. A glowing red trail of dust and gas stretches between them."
   },
   {
    "id": "esahubble:potw2548a",
@@ -2065,7 +2203,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2548a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2548a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2548a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2548a.jpg",
+   "caption": "The Hubble Space Telescope, which circles Earth just above the air, shows a swirling galaxy full of new stars. Each glowing pink patch is a giant cloud of gas where baby stars are being born."
   },
   {
    "id": "esahubble:potw2547a",
@@ -2078,7 +2217,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2547a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2547a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2547a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2547a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows glowing clouds of dust and gas full of baby stars. Their bright light and wind blow giant bubbles in the clouds."
   },
   {
    "id": "esahubble:potw2546a",
@@ -2091,7 +2231,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2546a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2546a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2546a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2546a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a giant spinning swirl of stars called the Lost Galaxy. Its glowing pink and blue spots are huge families of stars."
   },
   {
    "id": "esahubble:potw2545a",
@@ -2104,7 +2245,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2545a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2545a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2545a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2545a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows a huge galaxy full of stars, glowing pink clouds and dark dust. A neighbour galaxy nearby is tugging on it and messing it up."
   },
   {
    "id": "esahubble:potw2544a",
@@ -2117,7 +2259,8 @@
    "credit": "ESA/Hubble",
    "page": "https://esahubble.org/images/potw2544a/",
    "image": "https://cdn.esahubble.org/archives/images/wallpaper4/potw2544a.jpg",
-   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2544a.jpg"
+   "thumb": "https://cdn.esahubble.org/archives/images/thumb700x/potw2544a.jpg",
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows an unusual spiral galaxy shaped like a giant pinwheel. Its soft glow comes from more stars than anyone could ever count."
   },
   {
    "id": "hubble:497150",
@@ -2132,7 +2275,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_Sombrero_Large_heic2506a.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_Sombrero_Large_heic2506a.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "The Hubble Space Telescope, circling Earth just above the air, shows the Sombrero Galaxy, a giant city of stars seen from the side. Its dark ring of dust makes it look like a wide-brimmed hat."
   },
   {
    "id": "hubble:490059",
@@ -2147,7 +2291,8 @@
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/mission/hubble-fellows/STScI-01JPB7M4Q7VHGMTVSPDS4H7734.jpg?w=1920&h=1080&fit=clip",
    "thumb": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/mission/hubble-fellows/STScI-01JPB7M4Q7VHGMTVSPDS4H7734.jpg?w=384&h=384&fit=clip",
    "width": 0,
-   "height": 0
+   "height": 0,
+   "caption": "These are young scientists picked by NASA's Hubble Fellowship Program in 2025. They will try to answer big questions like how the universe works, how we got here, and whether we are alone."
   }
  ]
 }
