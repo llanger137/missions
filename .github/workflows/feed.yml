@@ -32,10 +32,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install certifi
-        run: pip install certifi
+      - name: Install dependencies
+        run: pip install certifi anthropic==2.13.0
 
       - name: Build manifest
+        env:
+          # Optional: without it, new items just go out uncaptioned.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: >
           python3 pipeline/build_manifest.py
           --out site/manifest.json --previous site/manifest.json

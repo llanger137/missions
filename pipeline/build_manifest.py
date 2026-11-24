@@ -30,6 +30,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from captions import add_captions
+
 try:
     import certifi
     SSL_CTX = ssl.create_default_context(cafile=certifi.where())
@@ -510,6 +512,8 @@ def main():
         if n < KEEP_PER_SOURCE.get(it["source"], 40):
             items.append(it)
             counts[it["source"]] = n + 1
+
+    add_captions(items, previous.get("items", []))
 
     # Leave the file alone when nothing changed, so the scheduled job only
     # commits when there's something new.

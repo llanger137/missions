@@ -151,3 +151,19 @@ store has, so the builder uses `certifi`.
 This is a title-rule filter; the phase 3 scorer should replace it, since some
 good images are missed (subject left blank and no mission word in the title)
 and ESA's artist renderings are only caught by wording.
+
+## TV viewer and kid captions (2026-11-24)
+
+- `tv/`: Flutter app "Missions" (`io.github.llanger137.missions`). One picture
+  at a time, newest first; right/down/OK step back in time, left/up forward.
+  A black bar under the picture holds the mission and date (15sp caps, as on
+  TV Timer's fact panel) and the caption (24sp, TV Timer's fact text). The
+  manifest is cached on the TV so it opens instantly; pictures are decoded at
+  screen size and the next two are pre-loaded. `tools/make_icons.py` draws
+  the banner and icon.
+- `pipeline/captions.py`: Claude (Opus 5.5, low effort) writes a one- or
+  two-sentence caption a 9-year-old can read, from the title, description
+  and the picture itself. Captions are written once per item and carried
+  forward, so each run only pays for new images (a few cents a day). Needs
+  the `ANTHROPIC_API_KEY` repo secret; without it items go out uncaptioned
+  and the TV shows the title instead.
