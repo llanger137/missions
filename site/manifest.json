@@ -1,10 +1,10 @@
 {
  "version": 1,
- "updated": "2026-11-24T21:56:11Z",
+ "updated": "2026-11-25T17:12:50Z",
  "failed_sources": [],
  "counts": {
-  "hirise": 30,
-  "esa": 17,
+  "hirise": 31,
+  "esa": 18,
   "esahubble": 20,
   "webb": 16,
   "photojournal": 32,
@@ -12,6 +12,24 @@
   "esawebb": 12
  },
  "items": [
+  {
+   "id": "hirise:2026-11-25",
+   "source": "hirise",
+   "mission": "MRO",
+   "instrument": "HiRISE",
+   "kind": "processed",
+   "title": "Defrosting Dunes",
+   "description": "An earlier image we acquired during Martian spring revealed a beautiful sequence of defrosting on polar dunes. Our goal with this observation is to repeat that and to track any changes over time in addition to resolving small scale features. Data from the CRISM instrument can aid in ice monitoring as well.",
+   "date": "2026-11-25T19:00:00Z",
+   "taken": "2023-02-07",
+   "credit": "NASA/JPL-Caltech/University of Arizona",
+   "page": "https://uahirise.org/hipod/ESP_077505_2650",
+   "image": "https://static.uahirise.org/hipod/ESP_077505_2650.jpg",
+   "thumb": "https://static.uahirise.org/hipod/ESP_077505_2650.jpg",
+   "width": 2560,
+   "height": 1920,
+   "caption": "The HiRISE camera on a spacecraft circling Mars shows icy sand dunes near the Martian pole thawing in spring. The camera is so sharp it can spot things the size of a kitchen table."
+  },
   {
    "id": "hirise:2026-11-24",
    "source": "hirise",
@@ -689,6 +707,20 @@
    "image": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899@2x.c1b3b112.webp",
    "thumb": "https://media.esa.int/global/public/common/image/2026/11/402322/image-thumb__402322__fit_large/hcl-context-hrsccolourmos-hrsc-moladtm-v2-2-1793793899.c1b3b112.webp",
    "caption": "The Mars Express spacecraft, which circles Mars, mapped a giant volcano called Alba Mons. Scientists think hot gas from deep underground may be leaking out of the ground near it."
+  },
+  {
+   "id": "esa:402326",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Hera's Juventas CubeSat performing radar probe inside the Dimorphos asteroid",
+   "description": "The shoebox-sized Juventas CubeSat carries the smallest radar instrument ever flown in space, which will perform the first radar sounding inside an asteroid, before eventually touching down and measuring the asteroid's gravity field, to see if it changes over the course of the smaller asteroid's orbit around the larger Didymos asteroid.",
+   "date": "2026-11-04T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/hera-s-juventas-cubesat-performing-radar-probe-inside-the-dimorphos-asteroid",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402326/image-thumb__402326__fit_large/juventas-3@2x.eec46eea.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402326/image-thumb__402326__fit_large/juventas-3.eec46eea.webp",
+   "caption": "This artist's drawing shows Juventas, a shoebox-sized helper from the Hera spacecraft, at the asteroid Dimorphos. Its radar, the smallest ever sent to space, will peek inside an asteroid for the first time."
   },
   {
    "id": "hirise:2026-11-03",
