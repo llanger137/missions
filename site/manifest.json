@@ -1,9 +1,9 @@
 {
  "version": 1,
- "updated": "2026-11-26T01:46:34Z",
+ "updated": "2026-11-26T12:30:45Z",
  "failed_sources": [],
  "counts": {
-  "hirise": 31,
+  "hirise": 32,
   "esa": 20,
   "esahubble": 20,
   "webb": 16,
@@ -12,6 +12,24 @@
   "esawebb": 12
  },
  "items": [
+  {
+   "id": "hirise:2026-11-26",
+   "source": "hirise",
+   "mission": "MRO",
+   "instrument": "HiRISE",
+   "kind": "processed",
+   "title": "First Light Illuminates Sand Dunes",
+   "description": "The high north latitudes of Mars’ polar terrains are shrouded in darkness for most of the winter. That season brings extensive frost and ice, which fall out of the atmosphere each autumn and extensively coat dunes and other surfaces. This image was acquired almost a month before the start of Mars Year 39 and the onset of spring, so the surface has very little light, as the Sun has finally emerged…",
+   "date": "2026-11-26T19:00:00Z",
+   "taken": "2026-09-04",
+   "credit": "NASA/JPL-Caltech/University of Arizona",
+   "page": "https://uahirise.org/hipod/ESP_094249_2530",
+   "image": "https://static.uahirise.org/hipod/ESP_094249_2530.jpg",
+   "thumb": "https://static.uahirise.org/hipod/ESP_094249_2530.jpg",
+   "width": 2560,
+   "height": 1920,
+   "caption": "A camera on the Mars Reconnaissance Orbiter, circling Mars, shows frosty sand dunes near Mars' north pole. After a long, dark winter, the Sun is just starting to shine on them again."
+  },
   {
    "id": "hirise:2026-11-25",
    "source": "hirise",
