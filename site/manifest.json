@@ -1,10 +1,10 @@
 {
  "version": 1,
- "updated": "2026-11-25T17:12:50Z",
+ "updated": "2026-11-26T01:46:34Z",
  "failed_sources": [],
  "counts": {
   "hirise": 31,
-  "esa": 18,
+  "esa": 20,
   "esahubble": 20,
   "webb": 16,
   "photojournal": 32,
@@ -29,6 +29,34 @@
    "width": 2560,
    "height": 1920,
    "caption": "The HiRISE camera on a spacecraft circling Mars shows icy sand dunes near the Martian pole thawing in spring. The camera is so sharp it can spot things the size of a kitchen table."
+  },
+  {
+   "id": "esa:402776",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "AFC and TIRI images of Didymos and Dimorphos",
+   "description": "A comparison of Hera Asteroid Framing Camera and Thermal Infrared Imager images of Didymos and Dimorphos taken 11 seconds apart. The monochrome AFC image records visible light while the TIRI image depicts the asteroids in thermal infrared, revealing differing temperatures. Note the warmest part of Didymos is its sunward side, with lower temperatures in the shade. A little more of shaded Dimorphos…",
+   "date": "2026-11-25T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/afc-and-tiri-images-of-didymos-and-dimorphos",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402776/image-thumb__402776__fit_large/afc-tiri-comparison-261109@2x.b391fd93.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402776/image-thumb__402776__fit_large/afc-tiri-comparison-261109.b391fd93.webp",
+   "caption": "The Hera spacecraft, visiting a space rock and its tiny moon, snapped them twice, once in normal light and once in heat light we can't see, showing the sunny side is warmest."
+  },
+  {
+   "id": "esa:402769",
+   "source": "esa",
+   "mission": "Hera",
+   "kind": "processed",
+   "title": "Didymos and Dimorphos with DART impact site visible",
+   "description": "This Hera Asteroid Framing Camera image shows Dimorphos in orbit around Didymos, with the crater caused by the 2022 DART impact clearly visible. The impact appears to have flattened one side of Dimorphos, leaving a crater that seems as wide as the impacted face of the asteroid and some weird structures inside it, including an apparent cigar-shaped structure at its centre. The 151-m-diameter…",
+   "date": "2026-11-25T12:00:00Z",
+   "credit": "ESA",
+   "page": "https://www.esa.int/media/didymos-and-dimorphos-with-dart-impact-site-visible",
+   "image": "https://media.esa.int/global/public/common/misc/2026/11/402769/image-thumb__402769__fit_large/hera-afc-dimorphos-crater-261107@2x.51a39287.webp",
+   "thumb": "https://media.esa.int/global/public/common/misc/2026/11/402769/image-thumb__402769__fit_large/hera-afc-dimorphos-crater-261107.51a39287.webp",
+   "caption": "ESA's Hera spacecraft, visiting the asteroid Didymos, spots its tiny moon Dimorphos at top left. A spacecraft called DART crashed into it in 2022, leaving a crater so big it flattened one whole side."
   },
   {
    "id": "hirise:2026-11-24",
