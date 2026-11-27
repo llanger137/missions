@@ -1,9 +1,9 @@
 {
  "version": 1,
- "updated": "2026-11-26T12:30:45Z",
+ "updated": "2026-11-27T08:29:24Z",
  "failed_sources": [],
  "counts": {
-  "hirise": 32,
+  "hirise": 33,
   "esa": 20,
   "esahubble": 20,
   "webb": 16,
@@ -12,6 +12,24 @@
   "esawebb": 12
  },
  "items": [
+  {
+   "id": "hirise:2026-11-27",
+   "source": "hirise",
+   "mission": "MRO",
+   "instrument": "HiRISE",
+   "kind": "processed",
+   "title": "A Debris Apron in Phlegra Montes",
+   "description": "Phlegra Montes has many lobate debris aprons, but are these here are understudied compared to others on Mars. With this image, we can examine the shape of the apron surface and the source region to understand their evolution and whether ice-rich flow has been involved.",
+   "date": "2026-11-27T19:00:00Z",
+   "taken": "2023-02-07",
+   "credit": "NASA/JPL-Caltech/University of Arizona",
+   "page": "https://uahirise.org/hipod/ESP_077509_2270",
+   "image": "https://static.uahirise.org/hipod/ESP_077509_2270.jpg",
+   "thumb": "https://static.uahirise.org/hipod/ESP_077509_2270.jpg",
+   "width": 2560,
+   "height": 1920,
+   "caption": "A camera on the Mars Reconnaissance Orbiter, circling Mars, shows a huge apron of rocks and dust spreading from mountains. Scientists want to know if hidden ice helped it slowly flow like a glacier."
+  },
   {
    "id": "hirise:2026-11-26",
    "source": "hirise",
