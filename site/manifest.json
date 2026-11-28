@@ -1,9 +1,9 @@
 {
  "version": 1,
- "updated": "2026-11-27T08:29:24Z",
+ "updated": "2026-11-28T15:30:30Z",
  "failed_sources": [],
  "counts": {
-  "hirise": 33,
+  "hirise": 34,
   "esa": 20,
   "esahubble": 20,
   "webb": 16,
@@ -12,6 +12,24 @@
   "esawebb": 12
  },
  "items": [
+  {
+   "id": "hirise:2026-11-28",
+   "source": "hirise",
+   "mission": "MRO",
+   "instrument": "HiRISE",
+   "kind": "processed",
+   "title": "On the Rim of Oudemans Crater",
+   "description": "The purpose of this observation is to image the degraded rim of Oudemans Crater to the northeast. Specifically, we wish to observe the possible impact melt rock on the floor of Oudemans that may have flowed into the canyons to the northeast of the crater. Unlike some craters, Oudemans Crater does not have alluvial fans on its floor. In places, its rim has a terrace. It was named for Dutch…",
+   "date": "2026-11-28T19:00:00Z",
+   "taken": "2020-09-29",
+   "credit": "NASA/JPL-Caltech/University of Arizona",
+   "page": "https://uahirise.org/hipod/ESP_066453_1710",
+   "image": "https://static.uahirise.org/hipod/ESP_066453_1710.jpg",
+   "thumb": "https://static.uahirise.org/hipod/ESP_066453_1710.jpg",
+   "width": 2560,
+   "height": 1920,
+   "caption": "The Mars Reconnaissance Orbiter, circling Mars, shows the worn-down edge of Oudemans Crater, where rock melted by a space-rock crash may have flowed like lava into nearby canyons."
+  },
   {
    "id": "hirise:2026-11-27",
    "source": "hirise",
